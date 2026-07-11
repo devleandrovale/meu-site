@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="icon" type="image/svg+xml" href="icon/code-v3.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/code-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icon/code-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+  <meta name="theme-color" content="#00ffcc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leandro Vale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <div class="conteudo">
+      <img src="img/leandrovale1.jpg" alt="Foto de Leandro Vale" loading="eager" class="foto">
+      <h1>Oi, eu sou o Leandro!👋</h1>
+      <p class="subtitulo">
+        Desenvolvedor <strong class="destaque">Front-End</strong> Júnior, focado em HTML, CSS e JavaScript.
+        Interesse em design, código limpo, performance e boas práticas.
+      </p>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="sobre scroll-animado" aria-labelledby="sobre-title">
+      <h2 id="sobre-title">Sobre mim</h2>
+      <p>
+        Desenvolvedor Front-End em formação, graduando em Engenharia de Software e Desenvolvimento de Sistemas, atualmente focado em construir uma base sólida em HTML, CSS e
+        <strong class="destaque">JavaScript</strong>.
+        Gosto de entender como as coisas funcionam por baixo dos panos e pratico constantemente com projetos autorais.
+        Busco minha primeira oportunidade como desenvolvedor júnior para aplicar boas práticas, aprender em ambiente real e evoluir profissionalmente.
+      </p>
+    </section>
+
+    <section class="habilidades scroll-animado" aria-labelledby="habilidades-title">
+      <h2 id="habilidades-title">Habilidades</h2>
+      <ul>
+        <li>HTML5 semântico</li>
+        <li>CSS3 (Box Model, Flexbox, Grid e Responsividade)</li>
+        <li>Git e GitHub</li>
+        <li>Noções de JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="projetos" aria-labelledby="projetos-title">
+      <h2 id="projetos-title">Projetos</h2>
+      <article class="projeto-card scroll-animado">
+
+        <div class="projeto-preview">
+          <img src="print-projeto-CyberSpace.png" loading="lazy" decoding="async" alt="Screenshot do projeto CyberSpace">
+        </div>
+
+        <h3 class="titulo-projeto">CyberSpace</h3>
+        <p>
+          Landing page de e-commerce conceitual futurista responsiva com animações fluidas baseadas em Intersection Observer, efeitos glow e um carrinho de compras 
+          funcional simulado com JavaScript puro, desenvolvido para praticar HTML e CSS, com foco em posicionamento de elementos, organização de layout e boas práticas de estruturação front-end.
+        </p>
+        <a href="https://devleandrovale.github.io/CyberSpace/" target="_blank" rel="noopener noreferrer" aria-label="Ver site do projeto CyberSpace">
+          Ver Site
+        </a>
+      </article>
+
+      <article class="projeto-card scroll-animado">
+        <h3 class="titulo-projeto">Site Pessoal</h3>
+        <p>
+          Site pessoal e portfólio autoral desenvolvido para apresentar projetos, habilidades e informações de contato.
+          Construído com HTML, CSS e JavaScript, com foco em responsividade, performance e organização de código.
+          Publicado com GitHub Pages.
+        </p>
+        <a href="https://github.com/devleandrovale/meu-site" target="_blank" rel="noopener noreferrer"> Ver código no GitHub </a>
+      </article>
+    </section>
+
+    <section class="contato scroll-animado from-bottom" aria-labelledby="contato-title">
+      <h2 id="contato-title">Contato</h2>
+      <p class="contato-texto">
+        Quer conversar, trocar uma ideia ou saber mais sobre meu trabalho?
+      </p>
+
+      <nav class="contato-links" aria-label="Links de contato">
+        <a href="https://mail.google.com/mail/?view=cm&to=devleandrovale@gmail.com" target="_blank">📩 Email</a>
+        <a href="https://www.linkedin.com/in/devleandrovale/" target="_blank">💼 LinkedIn</a>
+        <a href="https://github.com/devleandrovale" target="_blank">🐙 GitHub</a>
+      </nav>
+    </section>
+
+  </main>
+
+  <footer class="logo-selo">
+    <span>© Leandro Vale</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
